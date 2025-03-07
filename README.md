@@ -1,1 +1,1 @@
-# js-essentials
+# JS Essentials
