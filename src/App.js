@@ -7,13 +7,16 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Introduction from "./components/topics/Introduction";
 import "./styles.scss";
+import { DrawerProvider } from "./utils/context/DrawerContext";
 
 const App = () => {
   return (
     <div className="app">
-      <Header />
-      <Outlet />
-      <Footer />
+      <DrawerProvider>
+        <Header />
+        <Outlet />
+        <Footer />
+      </DrawerProvider>
     </div>
   );
 };
@@ -35,11 +38,11 @@ const routes = [
             path: "/introduction",
             element: <Introduction />,
           },
+          {
+            path: "*",
+            element: <ErrorPage />,
+          },
         ],
-      },
-      {
-        path: "*",
-        element: <ErrorPage />,
       },
     ],
   },
