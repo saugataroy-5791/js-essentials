@@ -17,6 +17,7 @@
   .navbar {
     justify-content: space-between;
     .navbar-brand {
+      display: flex;
       margin: 0 16px;
       font-size: 1.5rem;
     }
@@ -117,6 +118,13 @@
       padding: 16px;
       margin: 0;
     }
+    .content-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0 16px;
+    }
   }
 
   .codebox {
@@ -154,6 +162,8 @@
     }
     .content {
       width: 80%;
+      overflow-y: scroll;
+      height: calc(100vh - 118px);
     }
   }
 }

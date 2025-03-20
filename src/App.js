@@ -5,6 +5,7 @@ import Body from "./components/Body";
 import ErrorPage from "./components/ErrorPage";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import ExecutionContext from "./components/topics/ExecutionContext";
 import Introduction from "./components/topics/Introduction";
 import "./styles.scss";
 import { DrawerProvider } from "./utils/context/DrawerContext";
@@ -37,6 +38,10 @@ const routes = [
           {
             path: "/introduction",
             element: <Introduction />,
+          },
+          {
+            path: "/execution-context",
+            element: <ExecutionContext />,
           },
           {
             path: "*",

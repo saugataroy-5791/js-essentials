@@ -3,7 +3,7 @@ import Sidenav from "./Sidenav";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import { useContext } from "react";
 import { DrawerContext } from "../utils/context/DrawerContext";
-import { TOPICS } from "../utils/topics";
+import { TOPICS } from "../utils/constants";
 import ListGroup from "react-bootstrap/ListGroup";
 import { useNavigate } from "react-router-dom";
 

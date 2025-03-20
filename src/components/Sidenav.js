@@ -1,6 +1,6 @@
 import ListGroup from "react-bootstrap/ListGroup";
 import { useNavigate } from "react-router-dom";
-import { TOPICS } from "../utils/topics";
+import { TOPICS } from "../utils/constants";
 
 const Sidenav = () => {
   const navigate = useNavigate();
