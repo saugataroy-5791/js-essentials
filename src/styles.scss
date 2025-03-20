@@ -150,6 +150,8 @@
     }
     .content {
       width: 100%;
+      overflow-y: scroll;
+      height: calc(100vh - 118px);
     }
   }
 

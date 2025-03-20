@@ -2,8 +2,8 @@ export const TOPICS = [
   { id: 1, name: "Introduction", to: "/introduction" },
   { id: 2, name: "Execution Context", to: "/execution-context" },
   { id: 3, name: "Call Stack", to: "/call-stack" },
-  { id: 4, name: "Scope Chain", to: "/scope-chain" },
-  { id: 5, name: "Hoisting", to: "/hoisting" },
+  { id: 4, name: "Hoisting", to: "/hoisting" },
+  { id: 5, name: "Scope", to: "/scope" },
   { id: 6, name: "Var, Let, Const", to: "/var-let-const" },
   { id: 7, name: "This Keyword", to: "/this-keyword" },
   { id: 8, name: "Call, Bind, Apply", to: "/call-bind-apply" },
@@ -74,5 +74,32 @@ export const EXECUTION_CONTEXT = [
   {
     id: 3,
     text: "Two phases: Creation Phase and Execution Phase.",
+  },
+];
+
+export const CALL_STACK = [
+  {
+    id: 1,
+    text: "To keep track of all contexts, Global & Functional, JS engine uses a Call Stack.",
+  },
+  {
+    id: 2,
+    text: "Uses LIFO principle.",
+  },
+  {
+    id: 3,
+    text: "JS engine starts executing a script, a Global Execution Context is created and pushed into the stack.",
+  },
+  {
+    id: 4,
+    text: "Function is invoked, a new Function stack is created and pushed on top of the call stack and starts executing it.",
+  },
+  {
+    id: 5,
+    text: "Execution of function is complete, JS engine will remove the Function context from the call stack.",
+  },
+  {
+    id: 6,
+    text: "Once all functions are done executing, the stack returns to the Global Execution Context.",
   },
 ];

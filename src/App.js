@@ -5,6 +5,7 @@ import Body from "./components/Body";
 import ErrorPage from "./components/ErrorPage";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import CallStack from "./components/topics/CallStack";
 import ExecutionContext from "./components/topics/ExecutionContext";
 import Introduction from "./components/topics/Introduction";
 import "./styles.scss";
@@ -42,6 +43,10 @@ const routes = [
           {
             path: "/execution-context",
             element: <ExecutionContext />,
+          },
+          {
+            path: "/call-stack",
+            element: <CallStack />,
           },
           {
             path: "*",

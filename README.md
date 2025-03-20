@@ -1,1 +1,24 @@
 # JS Essentials
+
+- Introduction
+- Execution Context
+- Call Stack
+- Hoisting
+- Scope
+- Var, Let, Const
+- This keyword
+- Call, Bind, Apply
+- Closure
+- Event Loop
+- Functions
+- Callbacks
+- Promise
+- Async/Await
+- Event
+- Throttling, Debouncing
+- Workers
+- DOM, Browser APIs
+- Object Oriented Programming
+- JavaScript Engine
+- ES6+, ES7+ Features
+- Advanced JavaScript
